@@ -1,0 +1,30 @@
+<div class="service-container">
+  <div class="service">
+    <div class="content-service">
+      <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti optio necessitatibus sunt recusandae non porro</h3>
+      <div id="authorium" class="author">
+        By budiwalker@uhuy.com
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus quasi possimus. Quisquam aspernatur omnis ipsa modi autem. Quis accusantium fugit nesciunt aut? Voluptas magnam commodi quod, cupiditate nulla tempore?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sed aut voluptate est fuga ut odit eligendi maiores vero debitis modi tempora obcaecati, earum nemo laboriosam commodi quas in recusandae.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, repudiandae rerum. Laboriosam quaerat velit ut, quam autem blanditiis libero. Expedita in dolorem rem quod officiis veniam tempora fugiat inventore hic?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis neque quam at nobis dolor ipsam quae sint ab veniam maxime voluptatem, quasi veritatis est. Dignissimos quia molestiae velit commodi nisi.
+      </p>
+
+      <button (click)="tampilData('apa ajah deh')" class="btn btn-contact">Contact</button>
+    </div>
+    <div class="image-service" >
+      <img 
+        *ngFor="let image of images" 
+        [src]="image" 
+        [alt]="image" />
+    </div>
+  </div>
+</div>

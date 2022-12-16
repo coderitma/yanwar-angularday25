@@ -1,0 +1,12 @@
+.container-pbb {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pbb-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}

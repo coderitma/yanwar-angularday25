@@ -1,0 +1,34 @@
+.banner {
+  padding: 20px 0;
+  justify-content: center;
+  height: 500px;
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content, .action {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.content-heading {
+  font-size: 80px;
+  color: rgb(26, 26, 26);
+  padding: 20px;
+}
+
+.content-text {
+  font-size: 30px;
+  color: rgb(26, 26, 26);;
+  padding: 20px;
+}
+
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  margin-right: 10px;
+}
